@@ -42,13 +42,13 @@
     "editor.roundedSelection": false,
     "editor.selectionHighlight": false,
     "editor.scrollBeyondLastLine": false,
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "never",
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "editor.parameterHints.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.tokenColorCustomizations": {
-        "numbers": "#2247EB",
+        "numbers": "#2247E3",
         // "comments": "#687577",
         "functions": "#1437d4",
         "types": "#395f18",
@@ -112,10 +112,11 @@
     "files.autoSave": "afterDelay",
 
     "vim.vimrc.enable": true,
-    "vim.useSystemClipboard": true,
-    "vim.vimrc.path": "/Users/Tam.T.Nguyen/.vimrc_vscode",
+    "vim.vimrc.path": "~/.vimrc_vscode",
     "vim.enableNeovim": true,
-
+    "vim.handleKeys": {
+      "<C-w>": false
+    },
     "terminal.integrated.fontFamily": "menlo",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.env.osx": {
@@ -128,8 +129,6 @@
         "maven.terminal.useJavaHome",
         "java.jdt.ls.java.home"
     ],
-
-    "workbench.colorTheme": "Nord Light Brighter",
     "workbench.editor.showIcons": false,
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
@@ -309,4 +308,7 @@
       "searchAndCompare": false,
       "launchpad": false
     },
+    "workbench.colorTheme": "Light+",
+    "vim.useSystemClipboard": true,
+    "git.enableSmartCommit": true,
 }
